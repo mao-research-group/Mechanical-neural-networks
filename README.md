@@ -7,6 +7,6 @@ Feel free to adjust the parameters such as input nodes, output nodes, learning r
 ### In situ backpropagation & Behaviors learning
 By using the element-wise multiplication of bond elongations in both forward problem and adjoint problem, the exact gradient can be obtained. Using this gradient, we can use gradient descent to minimize the loss function which defines the behaviors of MNNs.
 ### Regression
-We demonstrate the linear regression task using MNNs. The input is a force applied on a node and the outputs are horizontal and vertical displacements defined on other output nodes.
+We demonstrate the linear regression task using MNNs with user-defined dataset. The input is a force applied on a node and the outputs are horizontal and vertical displacements defined on other output nodes.
 ### Classification
 We demonstrate the Iris flower classification task (built-in dataset). The inputs are four forces applied on four nodes from features of Iris flower. The outputs are displacements of three nodes and the node with largest horizontal displacement indicates the corresponding Iris flower.
