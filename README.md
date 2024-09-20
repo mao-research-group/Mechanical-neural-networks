@@ -1,5 +1,5 @@
 # Training all-mechanical neural networks for task learning through in situ backpropagation
-We introduce the mechanical analogue of in situ backpropagation to enable highly efficient training of Mechanical Neural Networks. With the exact gradient information, we showcase the successful training of MNNs for behavior learning and machine learning tasks, achieving high accuracy in regression and classification. The details of the approach are in our [arXiv paper](https://doi.org/10.48550/arXiv.2404.15471).
+We introduce the mechanical analogue of in situ backpropagation to enable highly efficient training of Mechanical Neural Networks. With the exact gradient information, we showcase the successful training of MNNs for behavior learning and machine learning tasks, achieving high accuracy in regression and classification. The details of the approach are in our [arXiv paper](https://doi.org/10.48550/arXiv.2404.15471). data.xlsx is the data file for generating figures in the paper.
 ## Setup
 The codes were developed in Matlab 2023a on Windows. Install Time of Matlab depends on your computer. Download the files and run Learningspring2D.m. Each task may take a few minutes to run depending on your computer.<br />
 Feel free to adjust the parameters such as input nodes, output nodes, learning rate and even defining your desired configuration of the MNNs.
